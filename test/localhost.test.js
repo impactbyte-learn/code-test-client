@@ -2,7 +2,7 @@ const URL = process.env.URL || 'http://localhost:8080'
 
 const timeout = 5000
 
-describe.only(
+describe(
   'GET / (Home Page)',
   () => {
     let page
