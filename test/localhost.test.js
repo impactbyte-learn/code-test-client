@@ -8,6 +8,8 @@ describe(
     let page
 
     beforeAll(async () => {
+      console.log('URL:', URL)
+
       page = await global.__BROWSER__.newPage()
       await page.goto(URL)
     }, timeout)
